@@ -1,59 +1,11 @@
-@import url(fontawesome-all.min.css);
-
-/*
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
-html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
-pre, a, abbr, acronym, address, big, cite,
-code, del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var, b,
-u, i, center, dl, dt, dd, ol, ul, li, fieldset,
-form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside,
-canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video {
+body {
 	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
-
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;}
-
-body {
-	line-height: 1;
+	vertical-align: baseline;
 }
-
-ol, ul {
-	list-style: none;
-}
-
-blockquote, q {
-	quotes: none;
-}
-
-	blockquote:before, blockquote:after, q:before, q:after {
-		content: '';
-		content: none;
-	}
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-body {
-	-webkit-text-size-adjust: none;
-}
-
 mark {
 	background-color: transparent;
 	color: inherit;
@@ -98,7 +50,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: #601813;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -197,10 +149,10 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #601813, #d6482f);
+				background-image: -webkit-linear-gradient(to right, #601813, #d6482f);
+				background-image: -ms-linear-gradient(to right, #601813, #d6482f);
+				background-image: linear-gradient(to right, #601813, #d6482f);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -326,249 +278,12 @@ input, select, textarea {
 	.align-right {
 		text-align: right;
 	}
-
-/* Row */
-
 	.row {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
 	}
-
-		.row > * {
-			box-sizing: border-box;
-		}
-
-		.row.gtr-uniform > * > :last-child {
-			margin-bottom: 0;
-		}
-
-		.row.aln-left {
-			justify-content: flex-start;
-		}
-
-		.row.aln-center {
-			justify-content: center;
-		}
-
-		.row.aln-right {
-			justify-content: flex-end;
-		}
-
-		.row.aln-top {
-			align-items: flex-start;
-		}
-
-		.row.aln-middle {
-			align-items: center;
-		}
-
-		.row.aln-bottom {
-			align-items: flex-end;
-		}
-
-		.row > .imp {
-			order: -1;
-		}
-
-		.row > .col-1 {
-			width: 8.33333%;
-		}
-
-		.row > .off-1 {
-			margin-left: 8.33333%;
-		}
-
-		.row > .col-2 {
-			width: 16.66667%;
-		}
-
-		.row > .off-2 {
-			margin-left: 16.66667%;
-		}
-
-		.row > .col-3 {
-			width: 25%;
-		}
-
-		.row > .off-3 {
-			margin-left: 25%;
-		}
-
-		.row > .col-4 {
-			width: 33.33333%;
-		}
-
-		.row > .off-4 {
-			margin-left: 33.33333%;
-		}
-
-		.row > .col-5 {
-			width: 41.66667%;
-		}
-
-		.row > .off-5 {
-			margin-left: 41.66667%;
-		}
-
-		.row > .col-6 {
-			width: 50%;
-		}
-
-		.row > .off-6 {
-			margin-left: 50%;
-		}
-
-		.row > .col-7 {
-			width: 58.33333%;
-		}
-
-		.row > .off-7 {
-			margin-left: 58.33333%;
-		}
-
-		.row > .col-8 {
-			width: 66.66667%;
-		}
-
-		.row > .off-8 {
-			margin-left: 66.66667%;
-		}
-
-		.row > .col-9 {
-			width: 75%;
-		}
-
-		.row > .off-9 {
-			margin-left: 75%;
-		}
-
-		.row > .col-10 {
-			width: 83.33333%;
-		}
-
-		.row > .off-10 {
-			margin-left: 83.33333%;
-		}
-
-		.row > .col-11 {
-			width: 91.66667%;
-		}
-
-		.row > .off-11 {
-			margin-left: 91.66667%;
-		}
-
-		.row > .col-12 {
-			width: 100%;
-		}
-
-		.row > .off-12 {
-			margin-left: 100%;
-		}
-
-		.row.gtr-0 {
-			margin-top: 0;
-			margin-left: 0em;
-		}
-
-			.row.gtr-0 > * {
-				padding: 0 0 0 0em;
-			}
-
-			.row.gtr-0.gtr-uniform {
-				margin-top: 0em;
-			}
-
-				.row.gtr-0.gtr-uniform > * {
-					padding-top: 0em;
-				}
-
-		.row.gtr-25 {
-			margin-top: 0;
-			margin-left: -0.375em;
-		}
-
-			.row.gtr-25 > * {
-				padding: 0 0 0 0.375em;
-			}
-
-			.row.gtr-25.gtr-uniform {
-				margin-top: -0.375em;
-			}
-
-				.row.gtr-25.gtr-uniform > * {
-					padding-top: 0.375em;
-				}
-
-		.row.gtr-50 {
-			margin-top: 0;
-			margin-left: -0.75em;
-		}
-
-			.row.gtr-50 > * {
-				padding: 0 0 0 0.75em;
-			}
-
-			.row.gtr-50.gtr-uniform {
-				margin-top: -0.75em;
-			}
-
-				.row.gtr-50.gtr-uniform > * {
-					padding-top: 0.75em;
-				}
-
-		.row {
-			margin-top: 0;
-			margin-left: -1.5em;
-		}
-
-			.row > * {
-				padding: 0 0 0 1.5em;
-			}
-
-			.row.gtr-uniform {
-				margin-top: -1.5em;
-			}
-
-				.row.gtr-uniform > * {
-					padding-top: 1.5em;
-				}
-
-		.row.gtr-150 {
-			margin-top: 0;
-			margin-left: -2.25em;
-		}
-
-			.row.gtr-150 > * {
-				padding: 0 0 0 2.25em;
-			}
-
-			.row.gtr-150.gtr-uniform {
-				margin-top: -2.25em;
-			}
-
-				.row.gtr-150.gtr-uniform > * {
-					padding-top: 2.25em;
-				}
-
-		.row.gtr-200 {
-			margin-top: 0;
-			margin-left: -3em;
-		}
-
-			.row.gtr-200 > * {
-				padding: 0 0 0 3em;
-			}
-
-			.row.gtr-200.gtr-uniform {
-				margin-top: -3em;
-			}
-
-				.row.gtr-200.gtr-uniform > * {
-					padding-top: 3em;
-				}
 
 		@media screen and (max-width: 1680px) {
 
@@ -2221,15 +1936,6 @@ input, select, textarea {
 		}
 
 /* Form */
-
-	form {
-		margin: 0 0 2em 0;
-	}
-
-		form > :last-child {
-			margin-bottom: 0;
-		}
-
 		form > .fields {
 			display: -moz-flex;
 			display: -webkit-flex;
@@ -2255,19 +1961,6 @@ input, select, textarea {
 				padding: 1.5em 0 0 1.5em;
 				width: calc(100% - 1.5em);
 			}
-
-				form > .fields > .field.half {
-					width: calc(50% - 0.75em);
-				}
-
-				form > .fields > .field.third {
-					width: calc(100%/3 - 0.5em);
-				}
-
-				form > .fields > .field.quarter {
-					width: calc(25% - 0.375em);
-				}
-
 		@media screen and (max-width: 480px) {
 
 			form > .fields {
@@ -2343,17 +2036,6 @@ input, select, textarea {
 			border-color: #ffffff;
 			box-shadow: 0 0 0 1px #ffffff;
 		}
-
-	select {
-		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(255, 255, 255, 0.15)' /%3E%3C/svg%3E");
-		background-size: 1.25rem;
-		background-repeat: no-repeat;
-		background-position: calc(100% - 1rem) center;
-		height: 2.75em;
-		padding-right: 2.75em;
-		text-overflow: ellipsis;
-	}
-
 		select option {
 			color: #ffffff;
 			background: #312450;
@@ -2444,7 +2126,7 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
 			border-color: #ffffff;
-			color: #b74e91;
+			color: #d6482f;
 			content: '\f00c';
 		}
 
@@ -2525,7 +2207,7 @@ input, select, textarea {
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
-			color: #312450;
+			color: #601813;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -2536,7 +2218,7 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
+					color: #601813;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
@@ -2552,7 +2234,7 @@ input, select, textarea {
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: #d6482f;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
@@ -3240,7 +2922,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #601813;
 		}
 
 		.wrapper.style1-alt {
@@ -3256,7 +2938,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #d6482f;
 		}
 
 		.wrapper.style3-alt {
@@ -3370,7 +3052,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #601813;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3765,10 +3447,10 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #601813, #d6482f);
+				background-image: -webkit-linear-gradient(to right, #601813, #d6482f);
+				background-image: -ms-linear-gradient(to right, #601813, #d6482f);
+				background-image: linear-gradient(to right, #601813, #d6482f);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3857,7 +3539,7 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: #d6482f;
 						}
 
 		}
@@ -3869,29 +3551,6 @@ input, select, textarea {
 			}
 
 		}
-
-/* Intro */
-
-	#intro {
-		background-attachment: fixed;
-		background-image: url("images/intro.svg");
-		background-position: top right;
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-	}
-
-		#intro p {
-			font-size: 1.25em;
-		}
-
-			@media screen and (max-width: 980px) {
-
-				#intro p br {
-					display: none;
-				}
-
-			}
-
 			@media screen and (max-width: 736px) {
 
 				#intro p {
@@ -3907,3 +3566,233 @@ input, select, textarea {
 			}
 
 		}
+		/* --------------------------------------------------------------CSS DEL CURRICULUM-------------------------------------------------------------------------------*/
+
+#todo {
+  background-image: url("../IMG/codigo.jpg");
+  background-size: cover;
+  width: 100;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Trebuchet MS";
+  font-size: 12px;
+  line-height: 22px;
+  color: #555555;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.semi-bold {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.resume {
+  width: 1000px;
+  height: auto;
+  display: flex;
+  margin-left: 300px;
+  margin-top: 50px;
+}
+
+.resume .resume_left {
+  width: 350px;
+  background: #0b36f4;
+}
+
+.resume .resume_left .resume_profile {
+  width: 100%;
+  height: 280px;
+}
+
+.resume .resume_left .resume_profile img {
+  width: 100%;
+  height: 100%;
+}
+
+.resume .resume_left .resume_content {
+  padding: 0 25px;
+}
+
+.resume .title {
+  margin-bottom: 20px;
+}
+
+.resume .resume_left .bold {
+  color: #fff;
+}
+
+.resume .resume_left .regular {
+  color: #b1eaff;
+}
+
+.resume .resume_item {
+  padding: 25px 0;
+  border-bottom: 2px solid #b1eaff;
+}
+
+.resume .resume_left .resume_item:last-child,
+.resume .resume_right .resume_item:last-child {
+  border-bottom: 0px;
+}
+
+
+
+.resume .resume_left ul li:last-child {
+  margin-bottom: 0;
+}
+
+.resume .resume_left ul li .icon {
+  width: 35px;
+  height: 35px;
+  background: #fff;
+  color: #0b36f4;
+  border-radius: 50%;
+  margin-right: 15px;
+  font-size: 16px;
+  position: relative;
+}
+
+.resume .icon i,
+.resume .resume_right .resume_hobby ul li i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.resume .resume_left ul li .data {
+  color: #b1eaff;
+}
+
+.resume .resume_left .resume_skills ul li {
+  display: flex;
+  margin-bottom: 10px;
+  color: #b1eaff;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.resume .resume_left .resume_skills ul li .skill_name {
+  width: 25%;
+}
+
+.resume .resume_left .resume_skills ul li .skill_progress {
+  width: 60%;
+  margin: 0 5px;
+  height: 5px;
+  background: black;
+  position: relative;
+}
+
+.resume .resume_left .resume_skills ul li .skill_per {
+  width: 15%;
+}
+
+.resume .resume_left .resume_skills ul li .skill_progress span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #fff;
+}
+
+.resume .resume_left .resume_social .semi-bold {
+  color: #fff;
+  margin-bottom: 3px;
+}
+
+.resume .resume_right {
+  width: 520px;
+  background: #fff;
+  padding: 25px;
+}
+
+.resume .resume_right .bold {
+  color: #0b36f4;
+}
+
+.resume .resume_right .resume_work ul,
+.resume .resume_right .resume_education ul {
+  padding-left: 40px;
+  overflow: hidden;
+}
+
+.resume .resume_right ul li {
+  position: relative;
+}
+
+.resume .resume_right ul li .date {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.resume .resume_right ul li .info {
+  margin-bottom: 20px;
+}
+
+.resume .resume_right ul li:last-child .info {
+  margin-bottom: 0;
+}
+
+.resume .resume_right .resume_work ul li:before,
+.resume .resume_right .resume_education ul li:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -25px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 2px solid #0b36f4;
+}
+
+.resume .resume_right .resume_work ul li:after,
+.resume .resume_right .resume_education ul li:after {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: -21px;
+  width: 2px;
+  height: 115px;
+  background: #0b36f4;
+}
+
+.resume .resume_right .resume_hobby ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume .resume_right .resume_hobby ul li {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #0b36f4;
+  border-radius: 50%;
+  position: relative;
+  color: #0b36f4;
+}
+
+.resume .resume_right .resume_hobby ul li i {
+  font-size: 30px;
+}
+
+.resume .resume_right .resume_hobby ul li:before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  right: -52px;
+  width: 50px;
+  height: 2px;
+  background: #0b36f4;
+}
+
+.resume .resume_right .resume_hobby ul li:last-child:before {
+  display: none;
+}
