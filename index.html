@@ -5,6 +5,10 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="CSS/main.css">	
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+  		<link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
 	</head>
 	<body class="is-preload">
 		<!-- Sidebar -->
@@ -23,7 +27,7 @@
 			<div id="wrapper">
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<header id="header">
+						<header id="header" class="trio">
 							<nav>
 								<ul>
 									<li><a href="index.html" class="active"><i>Inicio</i></a></li>
@@ -32,11 +36,21 @@
 								</ul>
 							</nav>
 						</header>
-						<div class="inner">
+						<div class="inner" id="principal">
 							<h1 class="inicio">Jesus Bucce Sol</h1>
 							<h2 class="inicio">Tecnico superior en desarrollo de <br>aplicaciones Multiplataforma.</h2>
-							<img src="IMG/programador.jpg" id="pro">
+							<h1 class="inicio" id="simbolo">< / ></h1>
+							<div id="botones">
+								<button onclick="mostrar()" id="boton1">¿Quien Soy?</button>
+								<br>
+								<div id="sorpresa">
+									<h1>Hola!!<h1>
+										<h2>Mi nombre es jesus y soy un entusiasta de la programacion<br>desde muy niño sentia atraccion por todo lo relacionado con los videojuegos<br>mas adelante esta aficion paso de los videojuegos a la informatica en general<br>motivandome a estudiar algo relacionado, siendo espeficamente el desarrollo de aplicaciones multiplataforma, DAM de forma abreviada.<br><br>Busco abrirme laboralmente y tener la oportunidad para demostrar mis habilidades, estando en una empresa que me permita crecer<br> y aprender cada dia mas sobre el sector en el que me muevo.</h2>
+									<button onclick="desaparece()" id="boton">Esconder texto</button>
+								</div>
+							</div>
 						</div>
+							<img src="IMG/programador.jpg" id="pro">
 					</section>
 				<!-- One -->
 					<section id="one" class="wrapper style2 spotlights">

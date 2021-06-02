@@ -5,6 +5,9 @@ body {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+
+	
+	
 }
 mark {
 	background-color: transparent;
@@ -22,11 +25,51 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+#simbolo{
+
+	text-shadow: 3px 3px red;
+	font-size: 3.5em;
+	font-family: 'Odibee Sans', cursive;
+}
+#boton{
+
+	font-size: 0.6em;
+
+}
+
+#botones{
+
+	text-align: center;
+}
+
+#boton1{
+
+	text-align: center;
+	
+}
+
+#sorpresa{
+	display: none;
+}
+.trio{
+
+	font-family: 'Mate SC', serif;
+	text-shadow: 1.3px 1.3px black;
+	font-size: 1.6em;
+
+
+}
+#principal{
+
+font-family: 'Mate SC', serif;
+text-shadow: 3px 3px black;
+
+}
 
 #pro{
 
-	width: 1100px;
-	height: 400px;
+	width: 1205px;
+	height: 380px;
 
 }
 
@@ -34,16 +77,6 @@ input, select, textarea {
 
 	text-align: center;
 }
-/* Basic */
-
-	@-ms-viewport {
-		width: device-width;
-	}
-
-	body {
-		-ms-overflow-style: scrollbar;
-	}
-
 	@media screen and (max-width: 480px) {
 
 		html, body {
@@ -59,17 +92,6 @@ input, select, textarea {
 	*, *:before, *:after {
 		box-sizing: inherit;
 	}
-
-		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
-			-moz-animation: none !important;
-			-webkit-animation: none !important;
-			-ms-animation: none !important;
-			animation: none !important;
-			-moz-transition: none !important;
-			-webkit-transition: none !important;
-			-ms-transition: none !important;
-			transition: none !important;
-		}
 
 /* Type */
 
@@ -1588,7 +1610,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease, -webkit-transform 0.2s ease;
 			-ms-transition: opacity 0.2s ease, -ms-transform 0.2s ease;
 			transition: opacity 0.2s ease, transform 0.2s ease;
-			background: #ffffff;
+			background: #B8C8F9;
 			border-radius: 3em;
 			content: '';
 			height: 100%;
@@ -2175,25 +2197,7 @@ input, select, textarea {
 		margin: 0 0 1.5em 0;
 	}
 
-	header h2 + p {
-		font-size: 1.25em;
-		margin-top: -1em;
-		line-height: 1.5em;
-	}
 
-	header h3 + p {
-		font-size: 1.1em;
-		margin-top: -0.8em;
-		line-height: 1.5em;
-	}
-
-	header h4 + p,
-	header h5 + p,
-	header h6 + p {
-		font-size: 0.9em;
-		margin-top: -0.6em;
-		line-height: 1.5em;
-	}
 
 /* Split */
 
@@ -3261,6 +3265,7 @@ input, select, textarea {
   font-size: 16px;
   line-height: 22px;
   color: #555555;
+  text-shadow: 0px 0px white;
 }
 
 .bold {
@@ -3445,3 +3450,5 @@ input, select, textarea {
   height: 115px;
   background: #0b36f4;
 }
+
+
